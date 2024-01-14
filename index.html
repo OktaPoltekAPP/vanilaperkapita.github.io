@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Okta Siane Khoirun Nisa">
+<meta name="dcterms.date" content="2023-12-26">
+
+<title>Analisis Pengaruh Ekspor Vanilla Terhadap Pertumbuhan Ekonomi Indonesia.</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="index_files/libs/clipboard/clipboard.min.js"></script>
+<script src="index_files/libs/quarto-html/quarto.js"></script>
+<script src="index_files/libs/quarto-html/popper.min.js"></script>
+<script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="index_files/libs/quarto-html/anchor.min.js"></script>
+<link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="index_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="index_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+<script src="index_files/libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="index_files/libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="index.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Analisis Pengaruh Ekspor Vanilla Terhadap Pertumbuhan Ekonomi Indonesia.</h1>
+<p class="subtitle lead">Metode Penelitian Politeknik APP Jakarta</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Okta Siane Khoirun Nisa </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 26, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<p><img src="poltekapp.jpg" class="img-fluid"></p>
+<section id="pendahuluan" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="pendahuluan"><span class="header-section-number">1</span> Pendahuluan</h2>
+<section id="latar-belakang" class="level3" data-number="1.1">
+<h3 data-number="1.1" class="anchored" data-anchor-id="latar-belakang"><span class="header-section-number">1.1</span> Latar belakang</h3>
+<p>Vanili adalah salah satu komoditas ekspor utama Indonesia dan memiliki nilai jual yang tinggi di pasar internasional¹⁵. Vanili, yang merupakan aroma yang dihasilkan oleh bunga vanili, dapat ditemukan dalam berbagai produk, mulai dari makanan dan minuman hingga kosmetik dan parfum¹. Meskipun vanili sintetis telah banyak digunakan sejak tahun 1980-an karena harganya yang lebih murah, permintaan vanili asli telah meningkat sejak tahun 2011 seiring industri makanan mulai mengurangi penggunaan bahan sintetis¹.</p>
+<p>Indonesia adalah produsen vanili terbesar kedua di dunia setelah Madagaskar, dengan produksi mencapai 2.306 ton pada tahun 2020². Beberapa provinsi di Indonesia, seperti Jawa Timur, Lampung, Jawa Tengah, Jawa Barat, Sumatera Utara, dan Nusa Tenggara Timur (NTT), dikenal sebagai produsen utama vanili di negara ini³.</p>
+<p>Di pasar global, vanili Indonesia memiliki daya saing yang kuat. Menurut Indeks Revealed Comparative Advantage (RCA), vanili Indonesia memiliki keunggulan komparatif di atas rata-rata dunia dan sangat kompetitif⁵⁸. Meskipun demikian, Indonesia masih belum mampu mengalahkan Madagaskar, pesaing utamanya, yang memiliki nilai RCA jauh di atas Indonesia⁵⁷.</p>
+<p>Dengan demikian, vanili Indonesia memainkan peran penting di pasar global dan memiliki potensi untuk lebih meningkatkan posisinya. Namun, tantangan seperti fluktuasi harga dan persaingan dengan produsen vanili lainnya perlu diatasi untuk memastikan pertumbuhan berkelanjutan dari sektor ini.</p>
+</section>
+<section id="ruang-lingkup" class="level3" data-number="1.2">
+<h3 data-number="1.2" class="anchored" data-anchor-id="ruang-lingkup"><span class="header-section-number">1.2</span> Ruang lingkup</h3>
+<p>Penelitian ini akan fokus pada bagaimana ekspor vanili Indonesia mempengaruhi PDB dan PDB per kapita negara tersebut.</p>
+<p>Ekspor vanili, sebagai salah satu komoditas utama Indonesia, berkontribusi signifikan terhadap PDB dan pendapatan negara. Pendapatan ini dapat digunakan untuk investasi dalam infrastruktur, pendidikan, kesehatan, dan sektor lainnya yang dapat meningkatkan produktivitas dan kualitas hidup penduduk, sehingga meningkatkan PDB per kapita.</p>
+<p>Selain itu, ekspor vanili juga menciptakan lapangan kerja dan memfasilitasi transfer teknologi dan pengetahuan, yang dapat meningkatkan efisiensi dan produktivitas.</p>
+<p>Analisis ini merupakan analisis multivariat yang dalam praktiknya akan menggunakan model gravity, yang mana model ini digunakan karena terdapat beberapa variabel yang tidak linear dan model ini mengusahakan agar data-data variabel tersebut dapat linear, misal dengan menggunakan log dalam prosesnya.</p>
+</section>
+<section id="rumusan-masalah" class="level3" data-number="1.3">
+<h3 data-number="1.3" class="anchored" data-anchor-id="rumusan-masalah"><span class="header-section-number">1.3</span> Rumusan masalah</h3>
+<p>Berikut adalah rumusan masalah yang dapat dijadikan acuan dalam penelitian ini:</p>
+<ol type="1">
+<li><p>Bagaimana pengaruh ekspor vanili terhadap PDB per kapita Indonesia? Apakah peningkatan ekspor vanili berkontribusi terhadap peningkatan PDB per kapita?</p></li>
+<li><p>Bagaimana pengaruh PDB terhadap PDB per kapita Indonesia? Apakah peningkatan PDB secara keseluruhan berkontribusi terhadap peningkatan PDB per kapita?</p></li>
+<li><p>Bagaimana pengaruh nilai tukar terhadap ekspor vanili, PDB, dan PDB per kapita? Apakah fluktuasi nilai tukar memiliki dampak signifikan terhadap ekspor vanili dan kinerja ekonomi secara keseluruhan?</p></li>
+<li><p>Bagaimana interaksi antara ekspor vanili, PDB, PDB per kapita, dan nilai tukar? Apakah ada hubungan timbal balik antara variabel-variabel ini?</p></li>
+</ol>
+<p>Rumusan masalah ini bertujuan untuk memahami dinamika ekonomi Indonesia, khususnya terkait dengan ekspor vanili, dan bagaimana variabel-variabel ini saling mempengaruhi satu sama lain dalam konteks PDB dan PDB per kapita.</p>
+</section>
+<section id="tujuan-dan-manfaat-penelitian" class="level3" data-number="1.4">
+<h3 data-number="1.4" class="anchored" data-anchor-id="tujuan-dan-manfaat-penelitian"><span class="header-section-number">1.4</span> Tujuan dan manfaat penelitian</h3>
+<p>Penelitian ini bertujuan untuk memahami bagaimana ekspor vanili Indonesia mempengaruhi PDB dan PDB per kapita negara tersebut. Analisis ini penting bagi pengajar dan pelajar. Bagi pengajar, hasil analisis ini dapat digunakan sebagai materi pengajaran dalam mata kuliah ekonomi, perdagangan internasional, atau mata kuliah terkait lainnya. Selain itu, analisis ini memberikan kasus nyata tentang bagaimana ekspor komoditas tertentu dapat mempengaruhi ekonomi suatu negara, yang dapat membantu dalam menjelaskan konsep teoritis. Bagi pelajar, analisis ini dapat membantu memahami konsep seperti ekspor, PDB, PDB per kapita, dan nilai tukar dalam konteks nyata. Selain itu, pelajar dapat belajar bagaimana melakukan analisis ekonomi dan bagaimana variabel-variabel ekonomi saling mempengaruhi. Akhirnya, pelajar dapat memperoleh pengetahuan tentang industri vanili dan perdagangan internasional.</p>
+</section>
+<section id="package" class="level3" data-number="1.5">
+<h3 data-number="1.5" class="anchored" data-anchor-id="package"><span class="header-section-number">1.5</span> Package</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">setwd</span>(<span class="st">"D:/METOPEL UAS/OKTA METOPEL"</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(kableExtra)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+</section>
+<section id="studi-pustaka" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="studi-pustaka"><span class="header-section-number">2</span> Studi pustaka</h2>
+<p>Valuta asing (foreign exchange) adalah mata uang negara lain (foreign currency) dari suatu perekonomian (Berlianta, 2004). Untuk dapat digunakan dalam kegiatan ekonomi, maka mata uang yang dipergunakan mempunyai harga tertentu dalam mata uang negara lain. Harga tersebut menggambarkan berapa banyak suatu mata uang harus dipertukarkan untuk memeroleh satu unit mata uang lain. Istilah dari rasio pertukaran ini adalah nilai tukar atau kurs (exchange rate).</p>
+<p>Kurs dapat dijadikan alat untuk mengukur kondisi perekonomian suatu negara. Pertumbuhan nilai mata uang yang stabil menunjukkan bahwa negara tersebut memiliki kondisi ekonomi yang relatif baik. (Salvator, 1997).</p>
+<p>(Sukirno,2022) GDP atau Gross Domestic Product adalah total nilai barang dan jasa yang diproduksi oleh suatu negara dalam jangka waktu tertentu, biasanya satu tahun. GDP dapat diukur dengan dua cara, yaitu:</p>
+<p>Pendapatan (income approach): GDP dihitung dengan menjumlahkan pendapatan yang diterima oleh semua faktor produksi dalam perekonomian, termasuk tenaga kerja, modal, dan tanah. Pengeluaran (expenditure approach): GDP dihitung dengan menjumlahkan semua pengeluaran yang dilakukan oleh semua pelaku ekonomi, termasuk rumah tangga, perusahaan, pemerintah, dan luar negeri. Pengertian GDP Perkapita</p>
+<p>(Sukirno,2022) GDP perkapita adalah nilai GDP per orang. GDP perkapita dapat dihitung dengan membagi GDP dengan jumlah penduduk. GDP perkapita sering digunakan sebagai indikator untuk mengukur tingkat kemakmuran dan kesejahteraan suatu negara.</p>
+<p>Ekspor menurut keputusan mentri perindustrian dan perdagangan Nomor 182/MPP/Kep/4/1998 ketentuan umum di Bidang Ekspor, menyatakan bahwa ekspor merupakan kegiatan mengeluarkan barang dan jasa dari daerah pabean suatu negara. Adapun daerah pabean di definisikan sebagai wilayah Republik Indonesia yang meliputi wilayah darat, perairan dan ruang udara di atasnya, serta tempat-tempat tertentu di zona ekonomi eksklusif dan landas kontinen yang di dalamnya berlaku undang undang No.10 tahun 1995 tentang Kepabean.</p>
+<p>Menurut definisi lain, ekspor merupakan penjualan barang dan jasa secara luas dari dalam negeri ke luar negeri (Mankiw, 2006).</p>
+<p>Sedangkan menurut Priadi (2000) kegiatan ekspor merupakan sistem perdagangan yang dilakukan dengan cara mengeluarkan barang-barang dari dalam negeri ke luar negeri berdasarkan ketentuan yang berlaku.</p>
+<p>Dikaji dari sisi manfaat, Menurut Sukirno (2010), manfaat dari kegiatan ekspor adalah : 1. Memperluas Pasar bagi Produk Indonesia ke luar negeri. 2. Menambah Devisa Negara 3. Memperluas Lapangan Kerja</p>
+<p>Menurut Purba (2011) suatu negara cenderung mengekspor barang yang diperlukan atau tidak dapat dihasilkan negara tersebut.</p>
+<p>Menurut Salvatore (1997) ada beberapa manfaat yang diperoleh dari perdagangan internasional yaitu: a. Suatu negara dapat memperoleh komoditas yang tidak mampu diproduksi di dalam negeri atau mengalami keterbatasan produksi. b. Suatu negara dapat memperoleh keuntungan melalui spesialisasi yaitu dapat mengekspor komoditi yang di produksi dengan harga lebih murah untuk ditukar dengan komoditi unggulan negara lain. Dengan tujuan untuk menekan biaya produksi sendiri yang mahal. c. Suatu negara dapat memperluas pasar produk, menambah pendapatan nasional, meningkatkan upah pekerja, menghasilkan devisa, serta dapat memperoleh kemajuan teknologi yang tidak tersedia di dalam negeri melalui perdagangan internasional.</p>
+</section>
+<section id="metode-penelitian" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="metode-penelitian"><span class="header-section-number">3</span> Metode penelitian</h2>
+<section id="data" class="level3" data-number="3.1">
+<h3 data-number="3.1" class="anchored" data-anchor-id="data"><span class="header-section-number">3.1</span> Data</h3>
+<table class="table">
+<thead>
+<tr class="header">
+<th>lfob</th>
+<th>lkurs</th>
+<th>lgdp</th>
+<th>lgdpp</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>7,284994</td>
+<td>3,927627</td>
+<td>11,3706426</td>
+<td>3,02201574</td>
+</tr>
+<tr class="even">
+<td>7,217537</td>
+<td>3,968016</td>
+<td>11,4096627</td>
+<td>3,055760465</td>
+</tr>
+<tr class="odd">
+<td>6,72811</td>
+<td>3,972203</td>
+<td>11,4561686</td>
+<td>3,096562438</td>
+</tr>
+<tr class="even">
+<td>6,770263</td>
+<td>3,955207</td>
+<td>11,5617809</td>
+<td>3,196728723</td>
+</tr>
+<tr class="odd">
+<td>6,782902</td>
+<td>3,974005</td>
+<td>11,6357049</td>
+<td>3,264817823</td>
+</tr>
+<tr class="even">
+<td>6,745465</td>
+<td>4,039414</td>
+<td>11,707766</td>
+<td>3,331224781</td>
+</tr>
+<tr class="odd">
+<td>6,706462</td>
+<td>3,973128</td>
+<td>11,7320558</td>
+<td>3,350054094</td>
+</tr>
+<tr class="even">
+<td>6,662569</td>
+<td>3,953808</td>
+<td>11,8779987</td>
+<td>3,591509809</td>
+</tr>
+<tr class="odd">
+<td>6,698709</td>
+<td>3,957512</td>
+<td>11,9508369</td>
+<td>3,557988148</td>
+</tr>
+<tr class="even">
+<td>6,729732</td>
+<td>3,985426</td>
+<td>11,9627812</td>
+<td>3,564429327</td>
+</tr>
+<tr class="odd">
+<td>6,862072</td>
+<td>4,085968</td>
+<td>11,9602424</td>
+<td>3,556664262</td>
+</tr>
+<tr class="even">
+<td>6,930032</td>
+<td>4,09482</td>
+<td>11,9497851</td>
+<td>3,541204691</td>
+</tr>
+<tr class="odd">
+<td>7,248415</td>
+<td>4,139722</td>
+<td>11,9349275</td>
+<td>3,521530341</td>
+</tr>
+<tr class="even">
+<td>7,850395</td>
+<td>4,12827</td>
+<td>11,96936</td>
+<td>3,564547712</td>
+</tr>
+<tr class="odd">
+<td>7,957028</td>
+<td>4,1321</td>
+<td>12,0067312</td>
+<td>3,584331224</td>
+</tr>
+<tr class="even">
+<td>7,869414</td>
+<td>4,158061</td>
+<td>12,0179802</td>
+<td>3,591398551</td>
+</tr>
+<tr class="odd">
+<td>7,842672</td>
+<td>4,141951</td>
+<td>12,0488689</td>
+<td>3,618152733</td>
+</tr>
+<tr class="even">
+<td>7,779943</td>
+<td>4,147676</td>
+<td>12,0249165</td>
+<td>3,590618948</td>
+</tr>
+<tr class="odd">
+<td>7,601299</td>
+<td>4,154394</td>
+<td>12,0742714</td>
+<td>3,636888907</td>
+</tr>
+<tr class="even">
+<td>7,361445</td>
+<td>4,184379</td>
+<td>12,1202777</td>
+<td>3,680154142</td>
+</tr>
+</tbody>
+</table>
+<p>Penelitian ini menggunakan data time series yang kemudian diproses menggunakan metode regresi multivariat untuk melihat hubungan antara variabel dependent (PDB Per Kapita) dan independent (Nilai Ekspor Vanilla, PDB, serta Kurs Rp/Dolar.)</p>
+</section>
+<section id="metode-analisis" class="level3" data-number="3.2">
+<h3 data-number="3.2" class="anchored" data-anchor-id="metode-analisis"><span class="header-section-number">3.2</span> Metode analisis</h3>
+<p>Metode yang dipilih adalah regresi Multivariat dengan lebih dari satu variabel independen. Penelitian ini dimaksudkan untuk mencari ada atau tidaknya hubungan antar variabel, sebepara pengaruh yang diberikan, dan tingkat signifikasi variabel tersebut.</p>
+<p>Spesifikasi yang dilakukan adalah:</p>
+<p><span class="math display">\[
+lnY=\beta_0 + \beta_1 lnX1+\beta_2 lnX2+\beta_3 lnX3.
+\]</span></p>
+<p>di mana <span class="math inline">\(Y\)</span>=PDB perkapita, <span class="math inline">\(X1\)</span> = FOB Vanilla dan <span class="math inline">\(X2\)</span>= PDB, <span class="math inline">\(X3\)</span>= Kurs/Nilai Tukar IDR/USD .</p>
+</section>
+</section>
+<section id="pembahasan" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="pembahasan"><span class="header-section-number">4</span> Pembahasan</h2>
+<section id="pembahasan-masalah" class="level3" data-number="4.1">
+<h3 data-number="4.1" class="anchored" data-anchor-id="pembahasan-masalah"><span class="header-section-number">4.1</span> Pembahasan masalah</h3>
+<p>Pada bagian ini dapat ditampilkan data dan visualisasi data yang telah dikumpulkan.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#impor dataset</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">read_excel</span>(<span class="st">"vanila2.xlsx"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>New names:
+• `` -&gt; `...10`</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 20 × 10
+   Tahun      fob  kurs  lfob lkurs           gdp  gdpp  lgdp lgdpp ...10 
+   &lt;dbl&gt;    &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;         &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt; 
+ 1  2003 19275000  8465  7.28  3.93  234770000000  1052  11.4  3.02 4.78% 
+ 2  2004 16502000  9290  7.22  3.97  256840000000  1137  11.4  3.06 5.03% 
+ 3  2005  5347000  9380  6.73  3.97  285870000000  1249  11.5  3.10 5.69% 
+ 4  2006  5892000  9020  6.77  3.96  364570000000  1573  11.6  3.20 5.50% 
+ 5  2007  6066000  9419  6.78  3.97  432220000000  1840  11.6  3.26 6.35% 
+ 6  2008  5565000 10950  6.75  4.04  510230000000  2144  11.7  3.33 6.01% 
+ 7  2009  5087000  9400  6.71  3.97  539580000000  2239  11.7  3.35 4.63% 
+ 8  2010  4598000  8991  6.66  3.95  755090000000  3904  11.9  3.59 6.22% 
+ 9  2011  4997000  9068  6.70  3.96  892970000000  3614  12.0  3.56 6.17% 
+10  2012  5367000  9670  6.73  3.99  917870000000  3668  12.0  3.56 6.03% 
+11  2013  7279000 12189  6.86  4.09  912520000000  3603  12.0  3.56 5.56% 
+12  2014  8512000 12440  6.93  4.09  890810000000  3477  11.9  3.54 5.01% 
+13  2015 17718000 13795  7.25  4.14  860850000000  3323  11.9  3.52 4.88% 
+14  2016 70859000 13436  7.85  4.13  931880000000  3669  12.0  3.56 5.03% 
+15  2017 90579000 13555  7.96  4.13 1015620000000  3840  12.0  3.58 5.07% 
+16  2018 74031000 14390  7.87  4.16 1042270000000  3903  12.0  3.59 5.17% 
+17  2019 69610000 13866  7.84  4.14 1119100000000  4151  12.0  3.62 5.02% 
+18  2020 60248000 14050  7.78  4.15 1059050000000  3896  12.0  3.59 -2.07%
+19  2021 39930000 14269  7.60  4.15 1186510000000  4334  12.1  3.64 3.70% 
+20  2022 22985000 15289  7.36  4.18 1319100000000  4788  12.1  3.68 5.31% </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>dat <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(<span class="st">"vanila2.xlsx"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>New names:
+• `` -&gt; `...10`</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">kbl</span>(dat) <span class="sc">%&gt;%</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable_styling</span>(<span class="at">bootstrap_options =</span> <span class="fu">c</span>(<span class="st">"striped"</span>, <span class="st">"hover"</span>, <span class="st">"condensed"</span>, <span class="st">"responsive"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div class="table-responsive">
+<table class="table table-striped table-hover table-condensed table-sm small" data-quarto-postprocess="true">
+<thead>
+<tr class="header">
+<th style="text-align: right;" data-quarto-table-cell-role="th">Tahun</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">fob</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">kurs</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">lfob</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">lkurs</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">gdp</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">gdpp</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">lgdp</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">lgdpp</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">...10</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">2003</td>
+<td style="text-align: right;">19275000</td>
+<td style="text-align: right;">8465</td>
+<td style="text-align: right;">7.284994</td>
+<td style="text-align: right;">3.927627</td>
+<td style="text-align: right;">2.34770e+11</td>
+<td style="text-align: right;">1052</td>
+<td style="text-align: right;">11.37064</td>
+<td style="text-align: right;">3.022016</td>
+<td style="text-align: left;">4.78%</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2004</td>
+<td style="text-align: right;">16502000</td>
+<td style="text-align: right;">9290</td>
+<td style="text-align: right;">7.217537</td>
+<td style="text-align: right;">3.968016</td>
+<td style="text-align: right;">2.56840e+11</td>
+<td style="text-align: right;">1137</td>
+<td style="text-align: right;">11.40966</td>
+<td style="text-align: right;">3.055760</td>
+<td style="text-align: left;">5.03%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2005</td>
+<td style="text-align: right;">5347000</td>
+<td style="text-align: right;">9380</td>
+<td style="text-align: right;">6.728110</td>
+<td style="text-align: right;">3.972203</td>
+<td style="text-align: right;">2.85870e+11</td>
+<td style="text-align: right;">1249</td>
+<td style="text-align: right;">11.45617</td>
+<td style="text-align: right;">3.096562</td>
+<td style="text-align: left;">5.69%</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2006</td>
+<td style="text-align: right;">5892000</td>
+<td style="text-align: right;">9020</td>
+<td style="text-align: right;">6.770263</td>
+<td style="text-align: right;">3.955207</td>
+<td style="text-align: right;">3.64570e+11</td>
+<td style="text-align: right;">1573</td>
+<td style="text-align: right;">11.56178</td>
+<td style="text-align: right;">3.196729</td>
+<td style="text-align: left;">5.50%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2007</td>
+<td style="text-align: right;">6066000</td>
+<td style="text-align: right;">9419</td>
+<td style="text-align: right;">6.782902</td>
+<td style="text-align: right;">3.974005</td>
+<td style="text-align: right;">4.32220e+11</td>
+<td style="text-align: right;">1840</td>
+<td style="text-align: right;">11.63570</td>
+<td style="text-align: right;">3.264818</td>
+<td style="text-align: left;">6.35%</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2008</td>
+<td style="text-align: right;">5565000</td>
+<td style="text-align: right;">10950</td>
+<td style="text-align: right;">6.745465</td>
+<td style="text-align: right;">4.039414</td>
+<td style="text-align: right;">5.10230e+11</td>
+<td style="text-align: right;">2144</td>
+<td style="text-align: right;">11.70777</td>
+<td style="text-align: right;">3.331225</td>
+<td style="text-align: left;">6.01%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2009</td>
+<td style="text-align: right;">5087000</td>
+<td style="text-align: right;">9400</td>
+<td style="text-align: right;">6.706462</td>
+<td style="text-align: right;">3.973128</td>
+<td style="text-align: right;">5.39580e+11</td>
+<td style="text-align: right;">2239</td>
+<td style="text-align: right;">11.73206</td>
+<td style="text-align: right;">3.350054</td>
+<td style="text-align: left;">4.63%</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2010</td>
+<td style="text-align: right;">4598000</td>
+<td style="text-align: right;">8991</td>
+<td style="text-align: right;">6.662569</td>
+<td style="text-align: right;">3.953808</td>
+<td style="text-align: right;">7.55090e+11</td>
+<td style="text-align: right;">3904</td>
+<td style="text-align: right;">11.87800</td>
+<td style="text-align: right;">3.591510</td>
+<td style="text-align: left;">6.22%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2011</td>
+<td style="text-align: right;">4997000</td>
+<td style="text-align: right;">9068</td>
+<td style="text-align: right;">6.698709</td>
+<td style="text-align: right;">3.957511</td>
+<td style="text-align: right;">8.92970e+11</td>
+<td style="text-align: right;">3614</td>
+<td style="text-align: right;">11.95084</td>
+<td style="text-align: right;">3.557988</td>
+<td style="text-align: left;">6.17%</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2012</td>
+<td style="text-align: right;">5367000</td>
+<td style="text-align: right;">9670</td>
+<td style="text-align: right;">6.729732</td>
+<td style="text-align: right;">3.985426</td>
+<td style="text-align: right;">9.17870e+11</td>
+<td style="text-align: right;">3668</td>
+<td style="text-align: right;">11.96278</td>
+<td style="text-align: right;">3.564429</td>
+<td style="text-align: left;">6.03%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2013</td>
+<td style="text-align: right;">7279000</td>
+<td style="text-align: right;">12189</td>
+<td style="text-align: right;">6.862072</td>
+<td style="text-align: right;">4.085968</td>
+<td style="text-align: right;">9.12520e+11</td>
+<td style="text-align: right;">3603</td>
+<td style="text-align: right;">11.96024</td>
+<td style="text-align: right;">3.556664</td>
+<td style="text-align: left;">5.56%</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2014</td>
+<td style="text-align: right;">8512000</td>
+<td style="text-align: right;">12440</td>
+<td style="text-align: right;">6.930032</td>
+<td style="text-align: right;">4.094820</td>
+<td style="text-align: right;">8.90810e+11</td>
+<td style="text-align: right;">3477</td>
+<td style="text-align: right;">11.94979</td>
+<td style="text-align: right;">3.541205</td>
+<td style="text-align: left;">5.01%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2015</td>
+<td style="text-align: right;">17718000</td>
+<td style="text-align: right;">13795</td>
+<td style="text-align: right;">7.248415</td>
+<td style="text-align: right;">4.139722</td>
+<td style="text-align: right;">8.60850e+11</td>
+<td style="text-align: right;">3323</td>
+<td style="text-align: right;">11.93493</td>
+<td style="text-align: right;">3.521530</td>
+<td style="text-align: left;">4.88%</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2016</td>
+<td style="text-align: right;">70859000</td>
+<td style="text-align: right;">13436</td>
+<td style="text-align: right;">7.850395</td>
+<td style="text-align: right;">4.128270</td>
+<td style="text-align: right;">9.31880e+11</td>
+<td style="text-align: right;">3669</td>
+<td style="text-align: right;">11.96936</td>
+<td style="text-align: right;">3.564548</td>
+<td style="text-align: left;">5.03%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2017</td>
+<td style="text-align: right;">90579000</td>
+<td style="text-align: right;">13555</td>
+<td style="text-align: right;">7.957027</td>
+<td style="text-align: right;">4.132099</td>
+<td style="text-align: right;">1.01562e+12</td>
+<td style="text-align: right;">3840</td>
+<td style="text-align: right;">12.00673</td>
+<td style="text-align: right;">3.584331</td>
+<td style="text-align: left;">5.07%</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2018</td>
+<td style="text-align: right;">74031000</td>
+<td style="text-align: right;">14390</td>
+<td style="text-align: right;">7.869414</td>
+<td style="text-align: right;">4.158061</td>
+<td style="text-align: right;">1.04227e+12</td>
+<td style="text-align: right;">3903</td>
+<td style="text-align: right;">12.01798</td>
+<td style="text-align: right;">3.591399</td>
+<td style="text-align: left;">5.17%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2019</td>
+<td style="text-align: right;">69610000</td>
+<td style="text-align: right;">13866</td>
+<td style="text-align: right;">7.842672</td>
+<td style="text-align: right;">4.141951</td>
+<td style="text-align: right;">1.11910e+12</td>
+<td style="text-align: right;">4151</td>
+<td style="text-align: right;">12.04887</td>
+<td style="text-align: right;">3.618153</td>
+<td style="text-align: left;">5.02%</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2020</td>
+<td style="text-align: right;">60248000</td>
+<td style="text-align: right;">14050</td>
+<td style="text-align: right;">7.779943</td>
+<td style="text-align: right;">4.147676</td>
+<td style="text-align: right;">1.05905e+12</td>
+<td style="text-align: right;">3896</td>
+<td style="text-align: right;">12.02492</td>
+<td style="text-align: right;">3.590619</td>
+<td style="text-align: left;">-2.07%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2021</td>
+<td style="text-align: right;">39930000</td>
+<td style="text-align: right;">14269</td>
+<td style="text-align: right;">7.601299</td>
+<td style="text-align: right;">4.154394</td>
+<td style="text-align: right;">1.18651e+12</td>
+<td style="text-align: right;">4334</td>
+<td style="text-align: right;">12.07427</td>
+<td style="text-align: right;">3.636889</td>
+<td style="text-align: left;">3.70%</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2022</td>
+<td style="text-align: right;">22985000</td>
+<td style="text-align: right;">15289</td>
+<td style="text-align: right;">7.361445</td>
+<td style="text-align: right;">4.184379</td>
+<td style="text-align: right;">1.31910e+12</td>
+<td style="text-align: right;">4788</td>
+<td style="text-align: right;">12.12028</td>
+<td style="text-align: right;">3.680154</td>
+<td style="text-align: left;">5.31%</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+</div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>reg1<span class="ot">&lt;-</span><span class="fu">lm</span>(lgdpp<span class="sc">~</span>lfob<span class="sc">++</span>lgdp<span class="sc">+</span>lkurs,<span class="at">data=</span>dat)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>dat<span class="sc">$</span>m<span class="ot">&lt;-</span><span class="fu">resid</span>(reg1)</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(dat<span class="sc">$</span>lfob,dat<span class="sc">$</span>m,<span class="at">xlab=</span><span class="st">"FOB Vanilla"</span>,<span class="at">ylab=</span><span class="st">"error"</span>)</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="fu">abline</span>(<span class="at">h=</span><span class="dv">0</span>) <span class="co"># membuat garis horizontal di y=0</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>dat<span class="sc">$</span>m<span class="ot">&lt;-</span><span class="fu">resid</span>(reg1)</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(dat<span class="sc">$</span>lgdp,dat<span class="sc">$</span>m,<span class="at">xlab=</span><span class="st">"GDP"</span>,<span class="at">ylab=</span><span class="st">"error"</span>)</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="fu">abline</span>(<span class="at">h=</span><span class="dv">0</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>dat<span class="sc">$</span>m<span class="ot">&lt;-</span><span class="fu">resid</span>(reg1)</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(dat<span class="sc">$</span>lgdpp,dat<span class="sc">$</span>m,<span class="at">xlab=</span><span class="st">"GDP perkapita"</span>,<span class="at">ylab=</span><span class="st">"error"</span>)</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="fu">abline</span>(<span class="at">h=</span><span class="dv">0</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>dat<span class="sc">$</span>m<span class="ot">&lt;-</span><span class="fu">resid</span>(reg1)</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(dat<span class="sc">$</span>lkurs,dat<span class="sc">$</span>m,<span class="at">xlab=</span><span class="st">"Nilai Tukar IDR/USD"</span>,<span class="at">ylab=</span><span class="st">"error"</span>)</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="fu">abline</span>(<span class="at">h=</span><span class="dv">0</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</section>
+<section id="analisis-masalah" class="level3" data-number="4.2">
+<h3 data-number="4.2" class="anchored" data-anchor-id="analisis-masalah"><span class="header-section-number">4.2</span> Analisis masalah</h3>
+<p>Hasil regresinya adalah</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>reg1<span class="ot">&lt;-</span><span class="fu">lm</span>(<span class="at">data=</span>dat,lgdpp<span class="sc">~</span>lfob<span class="sc">+</span>lgdp<span class="sc">+</span>lkurs) <span class="co">#Y~X+S</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(reg1) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = lgdpp ~ lfob + lgdp + lkurs, data = dat)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.028886 -0.007661 -0.001308  0.003826  0.074855 
+
+Coefficients:
+            Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept) -6.89535    0.28741 -23.991 5.69e-14 ***
+lfob        -0.00249    0.01729  -0.144   0.8873    
+lgdp         0.98103    0.03699  26.522 1.19e-14 ***
+lkurs       -0.30958    0.13152  -2.354   0.0317 *  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 0.02247 on 16 degrees of freedom
+Multiple R-squared:  0.9904,    Adjusted R-squared:  0.9886 
+F-statistic: 550.8 on 3 and 16 DF,  p-value: 2.379e-16</code></pre>
+</div>
+</div>
+<p>Dari hasil regresi yang di tampilkan, dimana R-squared menunjukan hasil 0.9904, yang artinya angka tersebut mengandung makna bahwa X1, X2,dan X3 secara simultan berpengaruh terhadap Y sebesar 99,04%. Sedangkan 0,96% sisanya dipengaruhi oleh variabel lain di luar persamaan ini.</p>
+<p>Kemudian, besaran nilai yang tertera pada FOB Vanilla, dapat diartikan sebagai setiap ekspor vanila sebesar 1% akan mengakibatkan penurunan GDP perkapita sebesar -0,00249%,berpengaruh negatif tidak signifikan.</p>
+<p>pada variabel GDP, dapat dijelaskan tiap peningkatan GDP sebesar 1% akan mengakibatkan kenaikan GDP perkapita sebesar 0,98103%, berpengaruh positif signifikan.</p>
+<p>Terakhir pada variabel nilai tukar, menunjukan hasil negatif signifikan, dimana setiap kenaikan kurs sebesar 1% akan mengakibatkan GDP perkapita turun sebersar -0,30958%</p>
+</section>
+</section>
+<section id="kesimpulan" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="kesimpulan"><span class="header-section-number">5</span> Kesimpulan</h2>
+<p>Kesimpulan dari analisis ini adalah banyak faktor yang mempengaruhi GDP perkapita suatu negara, dimana salah satu faktor tersebut adalah kondisi ekspor dari negara yang di analisis.</p>
+<p>Pada analisis kali ini, komoditas yang dipilih adalah Vanilla yang justru berpengaruh negatif walaupun tidak signifikan. Hal ini terjadi sebab komoditas ini merupakan komoditas yang harga jualnya mengikuti pergerakan kurs atau nilai tukar suatu negara, sama halnya dengan minyak, emas, dan bahan tambang lainnya. Maka dari itulah komoditas ini juga di sebut sebagai emas hijau nusantara.</p>
+<p>Namun tidak menutup kemungkinan bilamana komoditas yang ingin di analisis berbeda dengan apa yang di jadikan bahan saat ini (Vanilla), tentu hasilnya pun akan berbeda.</p>
+<p>Hal yang jelas dapat dibuktikan pada analisis ini adalah hubungan antara GDP dengan GDP perkapita yang signifikan, karena hubungan kedua variabel tersebut merupakan sesuatu yang tidak dapat terpisahkan dimana GDP perkapita sumbernya berasal dari GDP dibagi total populasi negara tersebut.</p>
+</section>
+<section id="referensi" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="referensi"><span class="header-section-number">6</span> Referensi</h2>
+<p>Daya Saing Komoditas Vanili Indonesia di Pasar Internasional. https://www.jepa.ub.ac.id/index.php/jepa/article/view/1204.</p>
+<p>ANALISIS KINERJA PERDAGANGAN DAN DAYA SAING KOMODITAS VANILI INDONESIA …. https://jurnal.uns.ac.id/agrista/article/view/63830.</p>
+<p>DAYA SAING KOMODITAS VANILI INDONESIA DI PASAR INTERNASIONAL. https://jepa.ub.ac.id/index.php/jepa/article/download/1204/510.</p>
+<p>ANALISIS KINERJA PERDAGANGAN DAN DAYA SAING KOMODITAS VANILI INDONESIA …. https://jurnal.uns.ac.id/agrista/article/download/63830/36338.</p>
+<p>http://database.pertanian.go.id/eksim2012/hasilekspornegaratujuan.php.</p>
+<p>http://www.fao.org/faostat/en/.</p>
+<p>Pengantar Ekonomi Makro oleh Sadono Sukirno, Edisi Keempat (2023)</p>
+<p>Ekonomi Makro oleh Sadono Sukirno dan Sadono Anwar, Edisi Ketiga (2022)</p>
+<p>Ekonomi Makro oleh Mankiw, Gregory N., Edisi Keempat (2022)</p>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
